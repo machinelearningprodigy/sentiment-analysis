@@ -1,11 +1,12 @@
 import streamlit as st
 import pickle
 import re
-from nltk.corpus import stopwords
+from nltk.corpus import stopwords, wordnet
 from nltk.stem.porter import PorterStemmer
 import nltk
 
 # Download stopwords
+nltk.download('stopwords')
 nltk.download('wordnet')
 
 # Function for stemming
