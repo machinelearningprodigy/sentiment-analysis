@@ -6,8 +6,8 @@ from nltk.stem.porter import PorterStemmer
 import nltk
 
 # Download stopwords
-nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('stopwords')
 
 # Function for stemming
 port_stem = PorterStemmer()
