@@ -41,7 +41,7 @@ The sentiment prediction is displayed on the screen:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-repo/twitter-sentiment-analysis.git
+    git clone https://github.com/machinelearningprodigy/sentiment-analysis.git
     ```
 2. **Navigate to the Project Directory**:
     ```bash
