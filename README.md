@@ -37,6 +37,13 @@ The sentiment prediction is displayed on the screen:
 2. **Predict Sentiment**: Click the "Predict Sentiment" button.
 3. **View Results**: See whether your comment is predicted to be positive or negative.
 
+## Batch Analyze TweetClaw Exports
+
+The app also accepts reviewed local TweetClaw exports in JSON, JSONL, NDJSON, or
+CSV format. Upload a file with a `text`, `full_text`, `tweetText`, `content`, or
+`body` field or column, and the app will score every tweet with the same
+Logistic Regression model.
+
 ## Installation and Setup ⚙️
 
 1. **Clone the Repository**:
@@ -58,7 +65,7 @@ The sentiment prediction is displayed on the screen:
 
 ## Live Demo 🚀
 
-Check out the live demo of this app here: [Twitter Sentiment Analysis](https://sentiment-analysis-23.streamlit.app/)
+The previous Streamlit demo is no longer available. Run the app locally with `streamlit run app.py`.
 
 ## Acknowledgments 🙌
 
